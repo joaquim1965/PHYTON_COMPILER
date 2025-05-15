@@ -1,0 +1,5 @@
+pillow
+pytesseract
+pyttsx3
+pystray
+pyinstaller
