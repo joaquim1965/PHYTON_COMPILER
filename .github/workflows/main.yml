@@ -27,10 +27,10 @@ jobs:
 
       - name: Build EXE with PyInstaller
         run: |
-          pyinstaller --onefile --windowed TExTO_A_VOZ.py
+          pyinstaller --onefile --windowed TEXTO_A_VOZ.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: screen-reader-windows
-          path: dist/TExTO_A_VOZ.exe
+          path: dist/TEXTO_A_VOZ.exe
